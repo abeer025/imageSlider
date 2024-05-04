@@ -45,4 +45,17 @@ img{
     flex-direction: column;
 } */
 
+#main{
+    position:relative
+}
+.rightArrow{
+    position: absolute;
+    left: 5px;
+}
+
+.leftArrow{
+    position: absolute;
+    right: 5px;
+}
+
 
