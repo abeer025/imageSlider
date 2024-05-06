@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Java script</title>
+    <title>Java script Slider</title>
 
 </head>
 
@@ -13,8 +13,10 @@
 <!-- //Slider// -->
 <div class="main">
     <div class="div1" id="childDiv">
-        <button id="rightArrow" onclick="nextSlide()" class="rightArrow"></button>
-        <button id="leftArrow" onclick="prevSlide()" class="leftArrow"></button>
+        <div class="btnBox">
+            <button id="prevButton" onclick="prevSlide()" class="btn" >Prev</button>
+            <button id="nextButton" onclick="nextSlide()" class="btn" >Next</button>
+        </div>
         <img width="100%" id="mainImg" src="" alt="">
     </div>
 
